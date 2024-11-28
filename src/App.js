@@ -4,16 +4,13 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      {/* Sidebar */}
       <aside className="sidebar">
         <div className="icon">🏠</div>
         <div className="icon">⚙️</div>
         <div className="icon">🔄</div>
       </aside>
 
-      {/* Main Content */}
       <div className="main-content">
-        {/* Header */}
         <header className="header">
           <div className="search-bar">
             <input type="text" placeholder="Search" />
@@ -40,9 +37,7 @@ function App() {
           </div>
         </header>
 
-        {/* Table */}
         <div className="table">
-          {/* Table Header */}
           <div className="table-header">
             <div className="column">Input Column</div>
             <div className="column">Action Column</div>
@@ -50,14 +45,12 @@ function App() {
             <div className="column">+ Add Column</div>
           </div>
 
-          {/* Table Rows */}
           <div className="table-row">
             <div className="cell">Oct 12, 2024 at 14:08 PM</div>
             <div className="cell">Bitscale Evaluation - Account relev...</div>
             <div className="cell">Bitscale Evaluation - Account relev...</div>
             <div className="cell">➕ Add Row</div>
           </div>
-          {/* Add more rows as needed */}
         </div>
       </div>
     </div>
